@@ -30,11 +30,20 @@ function main() {
 
 function tabela() {
     var nova_linha = document.createElement("tr");
+    nova_linha.setAttribute("id", `cadastro_${x}`)
+
     var novo_nome = document.createElement("td");
+    novo_nome.setAttribute("value", `${office[x].nome}`)
 
     var novo_sala = document.createElement("td");
+    novo_sala.setAttribute("value", `${office[x].salario}`)
+
     var nova_data = document.createElement("td");
+    nova_data.setAttribute("value", `${office[x].data_nasc}`)
+
     var novo_id = document.createElement("td");
+    novo_id.setAttribute("value", `${office[x].id_x}`)
+
     tablee.appendChild(nova_linha);
 
     nova_linha.appendChild(novo_nome);
