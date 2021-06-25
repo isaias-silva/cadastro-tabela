@@ -2,6 +2,10 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+body {
+    background-color: white;
+}
+
 .formulario {
     background: rgb(96, 145, 142);
     width: 50%;
@@ -15,6 +19,7 @@
     color: beige;
     font-weight: bold;
     text-shadow: 4px 4px 4px rgb(25, 90, 90);
+    box-shadow: 4px 4px 4px black;
 }
 
 .formulario input {
@@ -74,7 +79,7 @@
     #datana {
         width: 75px;
         height: 20px;
-        font-size: 20px;
+        font-size: 10px;
     }
     .formulario {
         font-size: 15px;
@@ -91,7 +96,7 @@
     #datana {
         width: 50px;
         height: 20px;
-        font-size: 10px;
+        font-size: 5px;
     }
     .formulario {
         font-size: 10px;
@@ -111,6 +116,7 @@ input {
     background: rgb(25, 90, 90);
     width: 60%;
     margin: auto;
+    box-shadow: 4px 4px 4px black;
 }
 
 #tabela th,
@@ -125,6 +131,6 @@ input {
 
 #tabela {
     margin-top: 30px;
-    height: 370px;
+    height: 340px;
     overflow-y: scroll;
 }

@@ -19,9 +19,13 @@ function main() {
     var c_sala = window.document.getElementById("salario").value;
     var c_data = window.document.getElementById("datana").value;
 
-    office[x] = cadastrar(c_name, c_sala, c_data, x);
-    tabela();
-    x++;
+    if (c_name == "" || c_data == "" || c_sala == "") {
+        alert("erro, porfavor preencha todos os campos corretamente")
+    } else {
+        office[x] = cadastrar(c_name, c_sala, c_data, x);
+        tabela();
+        x++;
+    }
 }
 
 function tabela() {
