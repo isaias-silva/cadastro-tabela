@@ -105,3 +105,26 @@ input {
     box-shadow: 4px 4px 4px rgb(25, 90, 90);
     text-align: center;
 }
+
+#tabela table {
+    border: 1px solid black;
+    background: rgb(25, 90, 90);
+    width: 60%;
+    margin: auto;
+}
+
+#tabela th,
+#tabela td {
+    border: 1px solid black;
+    background: rgb(121, 140, 140)
+}
+
+#tabela td {
+    background: rgb(182, 237, 237)
+}
+
+#tabela {
+    margin-top: 30px;
+    height: 370px;
+    overflow-y: scroll;
+}
