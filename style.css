@@ -131,6 +131,11 @@ input {
 
 #tabela {
     margin-top: 30px;
-    height: 340px;
+    height: 200px;
     overflow-y: scroll;
+}
+
+footer {
+    margin: auto;
+    text-align: center;
 }
